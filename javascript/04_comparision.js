@@ -10,7 +10,7 @@ console.log(2 == 1);
 console.log("2" > 1); // true
 console.log("02" > 1); // true
 
-// avoid this type of conversion in line 13 to 20 becuase they are confusing.
+// avoid this type of conversion in line 13 to 23 becuase they are confusing.
 console.log(null > 0);   // false
 console.log(null == 0);  // false
 console.log(null >= 0);  // false
