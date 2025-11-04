@@ -32,6 +32,6 @@ const arr03 = myArr.slice(1, 3);
 console.log(arr03); // return [4, 5] | return sub-array , last value NOT included
 console.log("B ->", myArr);
 
-const arr04 = myArr.splice(1, 3);
-console.log("c ->", myArr);
+const arr04 = myArr.splice(1, 3);  // return [4, 5, 6]
+console.log("c ->", myArr); 
 console.log(arr04);
